@@ -2,6 +2,7 @@ import type { LikePath } from "./likePath.js";
 import type { Version } from "./version.js";
 
 export type CreateCompatibilityTableOptions = {
+  cwd?: LikePath;
   versions: Version[];
   /** Default use "**\/*.md" */
   pattern?: string;
@@ -10,4 +11,4 @@ export type CreateCompatibilityTableOptions = {
 
 export type CreateCompatibilityTable = (
   options: CreateCompatibilityTableOptions,
-) => Promise<void>;
+) => Promise<{ buffer: Uint8Array }>;
