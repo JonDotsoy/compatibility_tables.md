@@ -1,6 +1,6 @@
 # Tolling to make compatibility tables
 
-This tool read a set of markdown files
+Create a compatibility file for your project.
 
 **Example:**
 

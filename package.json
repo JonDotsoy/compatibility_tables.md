@@ -1,6 +1,7 @@
 {
   "name": "@jondotsoy/compatibility_table",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Create a compatibility file for your project.",
   "module": "./lib/esm/index.js",
   "type": "module",
   "scripts": {
@@ -20,11 +21,15 @@
     }
   },
   "files": [
-    "./lib/docs/",
+    "./docs/",
     "./lib/esm/",
     "./lib/types/"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonDotsoy/compatibility_tables.md.git"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/semver": "^7.5.8"
