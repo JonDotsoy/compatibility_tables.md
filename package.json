@@ -1,6 +1,6 @@
 {
   "name": "@jondotsoy/compatibility_table",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create a compatibility file for your project.",
   "module": "./lib/esm/index.js",
   "type": "module",
