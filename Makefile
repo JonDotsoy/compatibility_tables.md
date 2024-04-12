@@ -1,7 +1,4 @@
-build: prebuild build@esm build@types
-
-prebuild:
-	echo "*" >> ./lib/.gitignore
+build: build@esm build@types
 
 build@esm:
 	rm -rf ./lib/esm/

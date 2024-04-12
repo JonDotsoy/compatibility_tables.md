@@ -16,11 +16,13 @@
   "exports": {
     ".": {
       "types": "./lib/types/index.d.ts",
-      "import": "./lib/esm/index.js"
+      "default": "./lib/esm/index.js"
     }
   },
   "files": [
-    "./lib"
+    "./lib/docs/",
+    "./lib/esm/",
+    "./lib/types/"
   ],
   "license": "MIT",
   "devDependencies": {
