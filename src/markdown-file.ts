@@ -1,10 +1,10 @@
 import YAML, { YAMLParseError } from "yaml";
-import { markdownProcessor } from "./markdown-transformer";
-import { featureOptionsSchema } from "./schemas/feature-options.schema";
+import { markdownProcessor } from "./markdown-processor.js";
+import { featureOptionsSchema } from "./schemas/feature-options.schema.js";
 import type { Root } from "mdast";
 import type { z } from "zod";
 import path from "path";
-import type { LikePath } from "./dtos/likePath";
+import type { LikePath } from "./dtos/likePath.js";
 import fs from "fs/promises";
 
 export class MarkdownFile {

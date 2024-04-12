@@ -1,6 +1,6 @@
 import unindent from "@jondotsoy/unindent";
-import { MarkdownFile } from "./markdown-file";
-import type { CreateCompatibilityTable } from "./dtos/createCompatibilityTable";
+import { MarkdownFile } from "./markdown-file.js";
+import type { CreateCompatibilityTable } from "./dtos/createCompatibilityTable.js";
 import { Glob } from "glob";
 import semver from "semver";
 import fs from "fs/promises";
