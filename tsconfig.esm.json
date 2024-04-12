@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "inlineSourceMap": true,
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+    "allowArbitraryExtensions": false,
+    "emitDeclarationOnly": false
+  },
+  "exclude": ["./scripts", "./lib"]
+}

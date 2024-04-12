@@ -1,9 +1,22 @@
 {
   "name": "@jondotsoy/compatibility_table",
-  "module": "./src/compatibility_table.ts",
+  "module": "./lib/esm/index.js",
   "type": "module",
   "scripts": {
     "fmt": "prettier -w ."
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./lib/types/*"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "import": "./lib/esm/index.js"
+    }
   },
   "devDependencies": {
     "@types/bun": "latest",
