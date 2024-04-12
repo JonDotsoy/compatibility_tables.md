@@ -1,0 +1,27 @@
+{
+  "name": "@jondotsoy/compatibility_table",
+  "module": "./src/compatibility_table.ts",
+  "type": "module",
+  "scripts": {
+    "fmt": "prettier -w ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@jondotsoy/unindent": "^0.1.1",
+    "glob": "^10.3.12",
+    "mdast": "^3.0.0",
+    "prettier": "^3.2.5",
+    "remark-frontmatter": "^5.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "semver": "^7.6.0",
+    "unified": "^11.0.4",
+    "yaml": "^2.4.1",
+    "zod": "^3.22.4"
+  }
+}
